@@ -1,0 +1,11 @@
+interface:
+  display_name: "Top.gg Ads Advisor"
+  short_description: "Get your ad running, then understand and improve results"
+  default_prompt: "Use $topgg-ads-advisor to help me get an ad running on Top.gg with a short guided interview."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "topgg"
+      description: "Authenticated Top.gg campaign tools"
+      transport: "streamable_http"
+      url: "https://mcp.top.gg"
